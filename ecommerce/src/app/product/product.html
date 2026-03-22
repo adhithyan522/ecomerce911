@@ -1,0 +1,5 @@
+<div class="container d-flex justify-content-around flex-wrap">
+  @for (item of products; track item.id) {
+    <app-card [product]="item"></app-card>
+}
+</div>
